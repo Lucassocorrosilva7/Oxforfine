@@ -2,7 +2,7 @@
 
 <img src="https://img.shields.io/badge/license-MIT-green.svg">
 
-<hr>
+
 
 
 <h2>Sobre o projeto</h2>
