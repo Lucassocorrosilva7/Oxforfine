@@ -22,7 +22,7 @@
 <li>Lorem ipsum</li>
 </ul>
 
-<
+
 <h2>Autor</h2>
 <h3>Lucas do Socorro Silva</h3>
 
