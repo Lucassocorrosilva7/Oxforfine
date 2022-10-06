@@ -16,12 +16,6 @@ closeBtn.addEventListener("click", function () {
   sidebar.classList.remove("show-sidebar");
 });
 
-// for (let i = 0; i < link.length; i++) {
-//   link[i].addEventListener("click", () => {
-//     sidebar.classList.remove("show-sidebar");
-//   });
-// }
-
 link.forEach((el) => {
   el.addEventListener("click", () => {
     sidebar.classList.remove("show-sidebar");
