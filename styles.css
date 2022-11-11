@@ -22,6 +22,7 @@ html {
 
 body {
   background: var(--clr-primary);
+  font-family: var(--ff-primary);
 }
 
 a {
@@ -45,7 +46,6 @@ button {
     url("./image/home.webp") center/cover no-repeat;
   overflow: hidden;
   position: relative;
-  font-family: var(--ff-primary);
 }
 
 .banner {
@@ -96,11 +96,14 @@ button {
   font-size: 2rem;
   background: transparent;
   border-color: transparent;
-
   color: #222;
   transition: all 0.2s;
   cursor: pointer;
   animation: bounce 2s ease-in-out infinite;
+  background-color: #00ccff;
+  padding: 1rem;
+  border-radius: 50%;
+  z-index: 1;
 }
 .sidebar-toggle:hover {
   color: #222;
@@ -123,6 +126,7 @@ button {
   align-items: center;
   padding: 1rem 1.5rem;
 }
+
 .close-btn {
   font-size: 1.75rem;
   background: transparent;
